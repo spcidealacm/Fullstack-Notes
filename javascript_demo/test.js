@@ -1,14 +1,24 @@
-function func(a, b){
+'use strict'
+function person(a, b){
     this.time = a * b
     return this.time;
 }
 
-func.username = "Tianyang Guan";
-func.age = 30;
+person.username = "Tianyang Guan";
+person.age = 30;
+person.skills = { 
+    driver: 3, 
+    cooking: 2
+}
+person.func = function(){
+    return 0;
+}
 
-let result = new func(2, 3);
-let result2 = new func(3, 5);
+person.name="haha";
 
-console.log(func(4, 6));
+let result = new person(2, 3);
+let result2 = new person(3, 5);
+
+console.log(person(4, 6));
 
 console.log(result2);
