@@ -33,3 +33,13 @@ function foo() {
 }
 var mybar = foo()
 mybar()
+
+
+function func3(){
+    this.c = 'hihi'
+}
+func3.prototype.a = 'haha'
+func3.b = 'hehe'
+let Func3 = new func3()
+
+console.log(Func3.a, Func3.b, Func3.c)
