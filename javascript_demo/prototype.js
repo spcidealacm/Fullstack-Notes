@@ -21,7 +21,9 @@ let bar = {}
 
 //然而，constructor function (构造函数)所产生的对象(let Func = new func())
 //会将 constructor function 的 prototype 完全赋予给 新产生对象的 __proto__
+function func() {
 
+}
 let Func = new func()
 // Func 本身的结构就是
 {
