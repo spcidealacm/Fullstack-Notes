@@ -2,9 +2,10 @@
 
 ## -- Basic Technical Skill
 
-### HTML -5
-### CSS -3
-### JAVASCRIPT -ES6/7
+Html 5  
+Css 3  
+Javascript ES6/7  
+Typescript 4  
 
 ## -- Chrome Principle
 
