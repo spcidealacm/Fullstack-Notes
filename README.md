@@ -1,10 +1,11 @@
 # Fullstack Notes
 
-## Basic Technical Skill
+## -- Basic Technical Skill
 
-### CSS
-### JAVASCRIPT
+### HTML -5
+### CSS -3
+### JAVASCRIPT -ES6/7
 
-## Chrome Principle
+## -- Chrome Principle
 
-## Google V8 engine
+## -- Google V8 engine
