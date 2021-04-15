@@ -1,5 +1,3 @@
-# Fullstack Notes
-
 # My Fullstack Notes
 
 ## -- Infrastructure --
