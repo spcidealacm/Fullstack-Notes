@@ -1,8 +1,6 @@
 # Fullstack Notes
 
-## -- Chrome Principle --
-
-## -- Google V8 Engine --
+# My Fullstack Notes
 
 ## -- Infrastructure --
 
@@ -10,6 +8,11 @@
 - Css 3  
 - Javascript ES6/7  
 - Typescript 4  
+
+## -- Advanced --
+
+- Chrome Principle
+- Google V8 Engine
 
 ## -- Front-end Frame --
 
