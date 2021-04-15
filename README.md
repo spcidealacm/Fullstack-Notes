@@ -4,7 +4,7 @@
 
 - Html 5  
 - Css 3  
-- Javascript ES6/7  
+- Javascript ES6  
 - Typescript 4  
 
 ## -- Advanced --
