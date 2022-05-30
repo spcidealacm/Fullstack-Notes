@@ -1,4 +1,6 @@
-[a, b] = [false, true];
+"use strict"
+
+let [a, b] = [false, true];
 a ||= b //=> a = a || b
 console.log(a); // true
 
@@ -12,27 +14,27 @@ console.log(a); // false
 a ??= b //=> a = a ?? b
 console.log(a); // false
 
-const money = 1_000_000_000; 
+const money = 1_000_000_000;
 //=> const money = 1000000000
-console.log(typeof(money))
+console.log(typeof (money))
 //number
-console.log(money === 1000000000)
+console.log(money === 1000000000); //这里必须要加分号，否则会报错，不知什么原因
 //true
 
-
 [a, b] = [2, 1];
+console.log(a, b);
 a ||= b // a = a || b
-console.log(a); // 1
-
-
-[a, b] = [2, 1];
-a &&= b // a = a && b
 console.log(a); // 2
 
 
 [a, b] = [2, 1];
-a ??= b // a = a ?? b
+a &&= b // a = a && b
 console.log(a); // 1
+
+
+[a, b] = [2, 1];
+a ??= b // a = a ?? b
+console.log(a); // 2
 
 
 
